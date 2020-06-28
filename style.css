@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+}
+.top{
+    height: 100px;
+}
+.left{
+    margin-top: -75px;
+}
+.intro{
+    height: 100vh;
+    background-image: url(images/bg-hero-mobile.svg);
+    background-color:  hsl(193, 100%, 96%);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.logo{
+    width: 40%;
+    float: left;
+}
+.button{
+    display: inline;
+    margin: 0;
+    line-height: 23px;
+    float: right;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 0px 5px #444;
+}
+.intro h1{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+} 
+.desc-head{
+    margin-top: 80px !important;
+}
+.desc-p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    padding: 0px 10px;
+}
+.start{
+    color: #f2f2f2;
+    background-color:  hsl(322, 100%, 66%);
+    width: 60%;
+    font-size: 18px !important;
+    margin: 0px auto;
+    padding: 10px 10px !important;
+    border-radius: 25px;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+.illustrate{
+    width: 90%;
+    text-align: center;
+}
+.features{
+    box-sizing: border-box;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 25px;
+    border: 1px solid #f8f8f8;
+    box-shadow: 0px 0px 5px #4444;
+    margin: 45px auto ;
+    text-align: center;
+    padding:10px ;
+
+}
+.features img{
+    width: 100%;
+    margin: 20px auto;
+}
+.features h1{
+    font-family: 'Poppins', sans-serif;
+    margin: 70px auto 30px;
+}
+.features p{
+    font-family: 'Open Sans', sans-serif;
+    color:  hsl(208, 11%, 55%);
+    margin-bottom: 20px !important;
+}
+.foot{
+    width: 90%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    border: 1px solid #f8f8f8;
+    box-shadow: 0px 0px 5px #4444;
+    margin: 0 auto;
+    background-color: white;
+}
+.foot p{
+    color: #f2f2f2;
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+    background-color:  hsl(322, 100%, 66%);
+    padding: 10px 10px;
+    border-radius: 25px;
+}
+.foot-links{
+    color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.white-logo{
+    margin-top: 60px;
+}
+table{  
+    margin: 30px 15px;
+    font-size: 20px;
+}
+td{
+    padding: 10px;
+}
+ul{
+    list-style: none;
+    padding-left: 25px;
+    font-size: 24px;
+    margin: 0 ;
+}
+.handles{
+    width: fit-content;
+    margin: 30px auto;
+}
+.handles img{
+    padding: 10px;
+}
+.bottom{
+    background-image: linear-gradient(white, white 15%, hsl(192, 100%, 9%) 15%);
+}
+.bottom p{
+    text-align: center;
+    color: #f2f2f2;
+    padding: 10px;
+}
+
+@media only screen and (min-width:1000px){
+
+    .intro{
+        background-image: url(images/bg-hero-desktop.svg);
+    }
+    .logo{
+        width:auto;
+        padding: 20px;
+    }
+    .button{
+        margin: 20px;
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+    .left{
+        width: 45%;
+        float: left;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .left h1{
+        text-align: left;
+    }
+    .left p{
+        text-align: left;
+        padding: 0px;
+    }
+    .start{
+        width: 40%;
+        font-size: 18px !important;
+        margin: 0px 0px;
+        text-align: center !important;
+    }
+    .right{
+        width: 50%;
+        float:right;
+        overflow: auto;
+    }
+    .features{
+        height: 400px;
+    }
+    .f-left{
+        display:inline-block;
+        width: 70%;
+        float: left;
+        margin-top: 100px;
+        text-align: left;
+        box-sizing: border-box;
+        padding: 0px 150px;
+    }
+    .f-left h1{
+        margin-top: 0;
+    }
+    .f-right{
+        display: inline-block;
+        box-sizing: border-box;
+        width: 30%;
+        float: right;
+        margin: 40px auto;
+        padding: 0px 20px;
+    }
+    .foot{
+        width: 500px;
+    }
+    .foot p{
+        text-align: center !important;
+    }
+    .bottom{
+        margin-top: 150px;
+    }
+    .white-logo{
+        display: block;
+    }
+    table{
+        display: inline-block;
+    }
+    ul{
+        display: inline-block;
+        margin: 30px;
+    }
+    .inline{
+        width: 40%;
+        height: fit-content;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .handles{
+        display: inline-block;
+        margin: 30px 0px;
+        vertical-align: top;
+    }
+    .bottom p{
+        text-align: right;
+    }   
+
+}    
